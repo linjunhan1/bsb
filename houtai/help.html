@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>帮助</title>
+	</head>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js" ></script>
+	<script>
+		$(document).ready(function(){
+			$('#b01').click(function() {
+				$('#help').load('src/help.txt');
+			})
+		})
+	</script>
+	<body>
+		<button id="b01">点击获取帮助</button>
+	<div id="help"></div>
+	</body>
+</html>
